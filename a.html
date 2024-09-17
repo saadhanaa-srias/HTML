@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Methods and loops</title>
+    </head>
+    <body>
+        <script>
+            function generateRandomRoundedNumber() {
+              var randomNumber = Math.random() * 100; 
+              var roundedNumber = Math.round(randomNumber); 
+              return roundedNumber;}
+            var currentDate = new Date();
+            var formattedDate = currentDate.toDateString();
+            document.write("<p>Random Rounded Number: " + generateRandomRoundedNumber() + "</p>");
+            document.write("<p>Current Date: " + formattedDate + "</p>");
+          </script>
+    </body>
+</html>
